@@ -54,7 +54,6 @@ export function SocialIcons() {
       </a>
       <a href="https://www.tiktok.com/@uc_noteworthy">
         <button
-          onClick="location.href='https://www.tiktok.com/@uc_noteworthy'"
           type="button"
           data-twe-ripple-init
           data-twe-ripple-color="light"
