@@ -1,8 +1,6 @@
-import React from 'react';
-
 export default function ProfileCard({ pic, name, job, voicePart, semestersInNoteworthy, major }) {
   return (
-    <div className="rounded-lg overflow-hidden max-w-xs mx-auto border-4 border-gray-400">
+    <div className="rounded-lg overflow-hidden max-w-xs w-full mx-2 my-auto border-4 border-gray-400">
       <div className="image-content relative bg-blue-400 py-3">
         <div className="h-40 w-40 bg-gray-400 rounded-full flex items-center justify-center mx-auto">
           <img src={pic} alt="" className="card-img object-cover rounded-full" />

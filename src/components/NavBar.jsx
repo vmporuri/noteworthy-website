@@ -4,11 +4,11 @@ export function NavBar() {
   const menuItems = [
     { label: "Home", href: "#home" },
     { label: "Media", href: "#media" },
-    { label: "Members", href: "#members" },
+    { label: "People of Note", href: "#members" },
   ];
 
   return (
-    <nav className="m-0 bg-blue-400 sticky top-0">
+    <nav className="m-0 bg-blue-400 sticky top-0 z-50">
       <ul className="flex px-4 justify-between">
         <div className="flex">
           <a href="#home" className="hover:bg-blue-300 p-3 align-self-start">
