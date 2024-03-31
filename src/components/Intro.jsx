@@ -6,7 +6,7 @@ export function Intro() {
       <img
         src="https://noteworthy.studentorg.berkeley.edu/wp-content/uploads/2023/08/nw7-scaled-e1694912890695.jpg"
         alt="Vest Picture"
-        className="h-3/4" />
+        className="h-3/4 rounded-3xl" />
       <div className="flex flex-col place-content-center gap-5 text-center w-1/2">
         <h1 className="font-sans text-blue-400 text-6xl font-bold">Noteworthy</h1>
         <p className="font-sans text-lg">

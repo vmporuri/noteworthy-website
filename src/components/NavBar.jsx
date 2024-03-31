@@ -1,19 +1,19 @@
 export function NavBar() {
   return (
     <nav className="m-0 bg-blue-400 sticky top-0">
-      <ul className="flex py-3">
-        <a href="#home">
-          <li className="ml-8 text-white text-lg font-semibold">
+      <ul className="flex pl-4">
+        <a href="#home" className="hover:bg-blue-300 p-3">
+          <li className="text-white text-lg font-semibold ">
             Home
           </li>
         </a>
-        <a>
-          <li className="ml-8 text-white text-lg font-semibold">
+        <a href="#home" className="hover:bg-blue-300 p-3">
+          <li className="text-white text-lg font-semibold">
             Media
           </li>
         </a>
-        <a>
-          <li className="ml-8 text-white text-lg font-semibold">
+        <a href="#home" className="hover:bg-blue-300 p-3">
+          <li className="text-white text-lg font-semibold">
             Members
           </li>
         </a>
