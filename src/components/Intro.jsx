@@ -2,7 +2,7 @@ import { SocialIcons } from "./SocialIcons.jsx";
 
 export function Intro() {
   return (
-    <div className="h-screen flex flex-row items-center gap-8">
+    <div id="home" className="h-screen flex flex-row items-center gap-8">
       <img
         src="https://noteworthy.studentorg.berkeley.edu/wp-content/uploads/2023/08/nw7-scaled-e1694912890695.jpg"
         alt="Vest Picture"
