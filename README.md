@@ -1,8 +1,28 @@
-# React + Vite
+# Cal Noteworthy Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Noteworthy is a lower-voices a cappella group at UC Berkeley. This website was built as a candidate replacement for [their current website](https://noteworthy.studentorg.berkeley.edu/).
 
-Currently, two official plugins are available:
+https://github.com/vmporuri/noteworthy-website/assets/64628893/7e708567-60f9-4755-99ce-0c7248ca1403
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Sticky navigation bar
+- Image carousel for flyers/recent events
+- Profile cards for each member
+- Modals with more detailed member bios
+
+## Development
+
+This project was built using React and Tailwind CSS and setup using Vite. To build locally,
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/vmporuri/noteworthy-website.git
+```
+
+2. Run the live development server via npm
+
+```bash
+npm run dev
+```
