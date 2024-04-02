@@ -9,7 +9,7 @@ export default function Modal({ isVisible, memberNum, closeModal }) {
   }
 
   return (
-    <div className="w-screen h-screen flex place-content-center place-items-center">
+    <div className="fixed z-50 w-screen h-screen flex place-content-center place-items-center">
       <div className="fixed border-gray-400 border-8 rounded-2xl m-3 w-11/12 h-3/4 bg-white flex ">
         <img src={member.image} className="m-5" />
         <a className="absolute top-0 right-0" onClick={closeModal}>
